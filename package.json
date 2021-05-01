@@ -1,0 +1,23 @@
+{
+  "name": "restaurant_project",
+  "version": "1.0.0",
+  "description": "If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billodiallo/Restaurant_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/billodiallo/Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/billodiallo/Restaurant_page#readme",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
