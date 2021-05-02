@@ -1,6 +1,8 @@
 import './style.css';
 import headerPage from './header';
+import renderHome from './home';
 import foodpage from './food';
+import contactPage from './contact';
 
 function fordbd() {
   const i = 0;
@@ -8,7 +10,7 @@ function fordbd() {
     headerPage();
     foodpage();
     renderHome();
-    // contactPage();
+    contactPage();
   }
 }
 fordbd();

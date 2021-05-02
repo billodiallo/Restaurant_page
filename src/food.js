@@ -1,7 +1,10 @@
-import Thiakiri from './img/thiakiri.jpg';
+import Yassa from './img/yassa.jpg';
 import Thiebouwekh from './img/thiebwekh.jpg';
 import Thieboudienne from './img/tieboudienne.jpg';
-import Yassa from './img/yassa.jpg';
+import Thiakiri from './img/thiakiri.jpg';
+
+
+
 
 const foodpage = (() => {
   const contentContainer = document.querySelector('#content');
@@ -69,6 +72,12 @@ const img1 = new Image();
   img3.classList.add('image-food');
   const img33 = document.getElementById('img3');
   img33.appendChild(img3);
+
+  const img4 = new Image();
+  img4.src = Thiakiri;
+  img4.classList.add('image-food');
+  const img44 = document.getElementById('img4');
+  img44.appendChild(img4);
 
 })();
 
