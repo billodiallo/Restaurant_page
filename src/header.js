@@ -1,9 +1,9 @@
 const headerPage = (() => {
-    // container
-    const contentContainer = document.querySelector('#content');
-  
-    const header = document.createElement('header');
-    header.innerHTML = `
+  // container
+  const contentContainer = document.querySelector('#content');
+
+  const header = document.createElement('header');
+  header.innerHTML = `
 
     <nav class='d-flex justify-content-between bg-dark p-3'>
       <h2 class='red'>FastFood Chez Joe</h2>
@@ -18,7 +18,7 @@ const headerPage = (() => {
         <li data-tab-target="#contact" class="tab mx-3">Contact us</li>
       </ul>
   </nav>`;
-  
-    contentContainer.appendChild(header);
-  })();
-  export default headerPage;
+
+  contentContainer.appendChild(header);
+})();
+export default headerPage;
