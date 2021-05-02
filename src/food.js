@@ -38,9 +38,8 @@ food.innerHTML = `
       
     </div>
     <div class='col-6 mx-2'>
-      <h3 class='text-center'>Thiakiri</h3>
-      <p>Thiakry or Degue is a sweet millet couscous dish eaten in West Africa
-    </p>
+      <h3 class='text-center'>thieboudienne</h3>
+      <p>Thieboudienne/Ceebu Jen (Poisson au Riz) – a delicious one-pot meal with rice, fish stew and a variety of vegetables that is popular in Senegal. You’d love the layers of flavors in this dish!</p>
     </div>
   </div>
 
@@ -48,12 +47,11 @@ food.innerHTML = `
     <div id='img4' class='col-6 image-food  img1'>
       
     </div>
-
-  
     <div class='col-6 mx-2'>
-      <h3 class='text-center'>Thioubou</h3>
-      <p>Thieboudienne/Ceebu Jen (Poisson au Riz) – a delicious one-pot meal with rice, fish stew and a variety of vegetables that is popular in Senegal. You’d love the layers of flavors in this dish!</p>
-    </div>
+      <h3 class='text-center'>Thiakiri</h3>
+      <p>Thiakry or Degue is a sweet millet couscous dish eaten in West Africa</p>
   </div>
 </div>`;
+contentContainer.appendChild(food);
+
 })();
