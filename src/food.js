@@ -58,6 +58,12 @@ const img1 = new Image();
   const img11 = document.getElementById('img1');
   img11.appendChild(img1);
 
+  const img2 = new Image();
+  img2.src = Thieboudienne;
+  img2.classList.add('image-food');
+  const img22 = document.getElementById('img2');
+  img22.appendChild(img2);
+
 })();
 
 
