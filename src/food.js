@@ -59,10 +59,16 @@ const img1 = new Image();
   img11.appendChild(img1);
 
   const img2 = new Image();
-  img2.src = Thieboudienne;
+  img2.src = Thiebouwekh;
   img2.classList.add('image-food');
   const img22 = document.getElementById('img2');
   img22.appendChild(img2);
+
+  const img3 = new Image();
+  img3.src = Thieboudienne;
+  img3.classList.add('image-food');
+  const img33 = document.getElementById('img3');
+  img33.appendChild(img3);
 
 })();
 
