@@ -1,0 +1,6 @@
+body {
+    background-image: url(./img/joe.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
