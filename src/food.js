@@ -23,9 +23,35 @@ food.innerHTML = `
     </div>
   </div>
 
+  <div class='col-12 col-md-6 d-flex py-3'>
+    <div id='img2' class='col-6 image-food  img1'>
+      
+    </div>
+    <div class='col-6 mx-2'>
+      <h3 class='text-center'>Thioubou weikh</h3>
+      <p>White version of thieboudienne</p>
+    </div>
+  </div>
+
+  <div class='col-12 col-md-6 d-flex py-3'>
+    <div id='img3' class='col-6 image-food  img1'>
+      
+    </div>
+    <div class='col-6 mx-2'>
+      <h3 class='text-center'>Thiakiri</h3>
+      <p>Thiakry or Degue is a sweet millet couscous dish eaten in West Africa
+    </p>
+    </div>
+  </div>
+
+  <div class='col-12 col-md-6 d-flex py-3'>
+    <div id='img4' class='col-6 image-food  img1'>
+      
+    </div>
+
   
     <div class='col-6 mx-2'>
-      <h3 class='text-center'>Sarupe</h3>
+      <h3 class='text-center'>Thioubou</h3>
       <p>Thieboudienne/Ceebu Jen (Poisson au Riz) – a delicious one-pot meal with rice, fish stew and a variety of vegetables that is popular in Senegal. You’d love the layers of flavors in this dish!</p>
     </div>
   </div>
