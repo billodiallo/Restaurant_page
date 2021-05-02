@@ -60,13 +60,23 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/food.js":
+/*!*********************!*\
+  !*** ./src/food.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _img_thiakiri_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/thiakiri.jpg */ \"./src/img/thiakiri.jpg\");\n/* harmony import */ var _img_thiebwekh_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/thiebwekh.jpg */ \"./src/img/thiebwekh.jpg\");\n/* harmony import */ var _img_tieboudienne_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/tieboudienne.jpg */ \"./src/img/tieboudienne.jpg\");\n/* harmony import */ var _img_yassa_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/yassa.jpg */ \"./src/img/yassa.jpg\");\n\n\n\n\n\nconst foodpage = (() => {\n  const contentContainer = document.querySelector('#content');\n  const food = document.createElement('div');\n  food.classList.add('container-fluid');\n  food.setAttribute('id', 'menu');\n  food.setAttribute('data-tab-content', '');\n\nfood.innerHTML = `\n<div class='row mt-3 main-food'>\n  <div class='col-12 col-md-6 d-flex py-3'>\n    <div id='img1' class='col-6 image-food  img1'>\n      \n    </div>\n    <div class='col-6 mx-2'>\n      <h3 class='text-center'>Yassa</h3>\n      <p>Yassa is a spicy dish prepared with onions and either marinated poultry or marinated fish </p>\n    </div>\n  </div>\n\n  <div class='col-12 col-md-6 d-flex py-3'>\n    <div id='img2' class='col-6 image-food  img1'>\n      \n    </div>\n    <div class='col-6 mx-2'>\n      <h3 class='text-center'>Thioubou weikh</h3>\n      <p>White version of thieboudienne</p>\n    </div>\n  </div>\n\n  <div class='col-12 col-md-6 d-flex py-3'>\n    <div id='img3' class='col-6 image-food  img1'>\n      \n    </div>\n    <div class='col-6 mx-2'>\n      <h3 class='text-center'>thieboudienne</h3>\n      <p>Thieboudienne/Ceebu Jen (Poisson au Riz) – a delicious one-pot meal with rice, fish stew and a variety of vegetables that is popular in Senegal. You’d love the layers of flavors in this dish!</p>\n    </div>\n  </div>\n\n  <div class='col-12 col-md-6 d-flex py-3'>\n    <div id='img4' class='col-6 image-food  img1'>\n      \n    </div>\n    <div class='col-6 mx-2'>\n      <h3 class='text-center'>Thiakiri</h3>\n      <p>Thiakry or Degue is a sweet millet couscous dish eaten in West Africa</p>\n  </div>\n</div>`;\ncontentContainer.appendChild(food);\nconst img1 = new Image();\n  img1.src = _img_yassa_jpg__WEBPACK_IMPORTED_MODULE_3__;\n  img1.classList.add('image-food');\n  const img11 = document.getElementById('img1');\n  img11.appendChild(img1);\n\n})();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (foodpage);\n\n//# sourceURL=webpack://webpackk/./src/food.js?");
+
+/***/ }),
+
 /***/ "./src/header.js":
 /*!***********************!*\
   !*** ./src/header.js ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst headerPage = (() => {\r\n    // container\r\n    const contentContainer = document.querySelector('#content');\r\n  \r\n    const header = document.createElement('header');\r\n    header.innerHTML = `\r\n\r\n    <nav class='d-flex justify-content-between bg-dark p-3'>\r\n      <h2 class='red'>FastFood Chez Joe</h2>\r\n      <a href=\"#\" class=\"hamburger\">\r\n        <span class=\"line line1\"></span>\r\n        <span class=\"line line2\"></span>\r\n        <span class=\"line line3\"></span>\r\n      </a>\r\n      <ul class=\"list-unstyled d-flex text-light\">\r\n        <li data-tab-target=\"#home\" class=\"tab red mx-3\">Home</li>\r\n        <li id='menuu' data-tab-target=\"#menu\" class=\"tab mx-3\">Menu</li>\r\n        <li data-tab-target=\"#contact\" class=\"tab mx-3\">Contact us</li>\r\n      </ul>\r\n  </nav>`;\r\n  \r\n    contentContainer.appendChild(header);\r\n  })();\r\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerPage);\n\n//# sourceURL=webpack://webpackk/./src/header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst headerPage = (() => {\n  // container\n  const contentContainer = document.querySelector('#content');\n\n  const header = document.createElement('header');\n  header.innerHTML = `\n\n    <nav class='d-flex justify-content-between bg-dark p-3'>\n      <h2 class='red'>FastFood Chez Joe</h2>\n      <a href=\"#\" class=\"hamburger\">\n        <span class=\"line line1\"></span>\n        <span class=\"line line2\"></span>\n        <span class=\"line line3\"></span>\n      </a>\n      <ul class=\"list-unstyled d-flex text-light\">\n        <li data-tab-target=\"#home\" class=\"tab red mx-3\">Home</li>\n        <li id='menuu' data-tab-target=\"#menu\" class=\"tab mx-3\">Menu</li>\n        <li data-tab-target=\"#contact\" class=\"tab mx-3\">Contact us</li>\n      </ul>\n  </nav>`;\n\n  contentContainer.appendChild(header);\n})();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (headerPage);\n\n//# sourceURL=webpack://webpackk/./src/header.js?");
 
 /***/ }),
 
@@ -80,13 +90,53 @@ eval("module.exports = __webpack_require__.p + \"e08df5285276f634f4c8.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/img/thiakiri.jpg":
+/*!******************************!*\
+  !*** ./src/img/thiakiri.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"32669ae9dab8dfc51ea3.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/thiakiri.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/thiebwekh.jpg":
+/*!*******************************!*\
+  !*** ./src/img/thiebwekh.jpg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"15516fc06eb7f60af9d6.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/thiebwekh.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/tieboudienne.jpg":
+/*!**********************************!*\
+  !*** ./src/img/tieboudienne.jpg ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"474f8c04897ac6576c17.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/tieboudienne.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/yassa.jpg":
+/*!***************************!*\
+  !*** ./src/img/yassa.jpg ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dc4537305781a25fba6a.jpg\";\n\n//# sourceURL=webpack://webpackk/./src/img/yassa.jpg?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n\r\n\r\n\r\nfunction creazy() {\r\n    const i = 0;\r\n    if (i < 0) {\r\n      (0,_header__WEBPACK_IMPORTED_MODULE_1__.default)();\r\n      renderHome();\r\n      foodpage();\r\n      contactPage();\r\n    }\r\n  }\n\n//# sourceURL=webpack://webpackk/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./header */ \"./src/header.js\");\n/* harmony import */ var _food__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./food */ \"./src/food.js\");\n\n\n\n\nfunction fordbd() {\n  const i = 0;\n  if (i < 0) {\n    (0,_header__WEBPACK_IMPORTED_MODULE_1__.default)();\n    // renderHome();\n    (0,_food__WEBPACK_IMPORTED_MODULE_2__.default)();\n    // contactPage();\n  }\n}\nfordbd();\n\n// Navigation tabs\ntabs.forEach((tab) => tab.addEventListener('click', () => {\n  const target = document.querySelector(tab.dataset.tabTarget);\n  tabContents.forEach((tabContent) => {\n    tabContent.classList.remove('active');\n  });\n  tabs.forEach((tab) => {\n    tab.classList.remove('red');\n  });\n  tab.classList.add('red');\n  target.classList.add('active');\n}));\n\ndocument.querySelector('.main-row').addEventListener('click', () => {\n  document.querySelector('[data-tab-target=\"#menu\"]').classList.add('red');\n});\n\ndocument.querySelector('[type=\"submit\"]').addEventListener('click', () => {\n  document.querySelector('form').reset();\n});\n\n\n//# sourceURL=webpack://webpackk/./src/index.js?");
 
 /***/ })
 
