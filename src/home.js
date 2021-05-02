@@ -1,10 +1,10 @@
 const renderHome = (() => {
-    //container  
+  // container
 
-    const container = document.getElementById('content')
-    const home = document.getElementById('div');
-    home.classList.add('tab-content');
-    home.innerHTML = `
+  const container = document.getElementById('content');
+  const home = document.getElementById('div');
+  home.classList.add('tab-content');
+  home.innerHTML = `
     <div id="home" class="active" data-tab-content>
     <div class='container position-relative'>
       <div class='row col-6 mt-5 mx-auto main-row py-5'>
@@ -13,6 +13,7 @@ const renderHome = (() => {
       </div>
     </div>
   </div>`;
-    container.appendChild(home);})();
+  container.appendChild(home);
+})();
 
-    export default renderHome;
+export default renderHome;

@@ -8,3 +8,9 @@ body {
   .red {
     color: greenyellow;
   }
+
+  .image-food {
+    width: 210px;
+    height: 210px;
+    border-radius: 100px;
+  }

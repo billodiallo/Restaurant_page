@@ -3,9 +3,6 @@ import Thiebouwekh from './img/thiebwekh.jpg';
 import Thieboudienne from './img/tieboudienne.jpg';
 import Thiakiri from './img/thiakiri.jpg';
 
-
-
-
 const foodpage = (() => {
   const contentContainer = document.querySelector('#content');
   const food = document.createElement('div');
@@ -13,7 +10,7 @@ const foodpage = (() => {
   food.setAttribute('id', 'menu');
   food.setAttribute('data-tab-content', '');
 
-food.innerHTML = `
+  food.innerHTML = `
 <div class='row mt-3 main-food'>
   <div class='col-12 col-md-6 d-flex py-3'>
     <div id='img1' class='col-6 image-food  img1'>
@@ -54,8 +51,8 @@ food.innerHTML = `
       <p>Thiakry or Degue is a sweet millet couscous dish eaten in West Africa</p>
   </div>
 </div>`;
-contentContainer.appendChild(food);
-const img1 = new Image();
+  contentContainer.appendChild(food);
+  const img1 = new Image();
   img1.src = Yassa;
   img1.classList.add('image-food');
   const img11 = document.getElementById('img1');
@@ -78,8 +75,6 @@ const img1 = new Image();
   img4.classList.add('image-food');
   const img44 = document.getElementById('img4');
   img44.appendChild(img4);
-
 })();
-
 
 export default foodpage;

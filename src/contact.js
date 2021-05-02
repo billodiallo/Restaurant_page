@@ -1,11 +1,11 @@
 const contactPage = (() => {
-    const contentContainer = document.querySelector('#content');
-    const contact = document.createElement('div');
-    contact.classList.add('container-fluid');
-    contact.setAttribute('id', 'contact');
-    contact.setAttribute('data-tab-content', '');
+  const contentContainer = document.querySelector('#content');
+  const contact = document.createElement('div');
+  contact.classList.add('container-fluid');
+  contact.setAttribute('id', 'contact');
+  contact.setAttribute('data-tab-content', '');
 
-    contact.innerHTML = `
+  contact.innerHTML = `
   <h1 class='text-center text-light'>Contact Us</h1>
   <div class='col-10 col-md-6 mx-auto row d-flex flex-column contact-row'>
     <div class='col-6 mx-auto'>
@@ -32,5 +32,6 @@ const contactPage = (() => {
         </form>
       </div>
   </div>`;
-
 })();
+
+export default contactPage;
