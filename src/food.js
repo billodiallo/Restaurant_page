@@ -1,6 +1,6 @@
 import Thiakiri from './img/thiakiri.jpg';
-import Thiebouwekh from './img/thiebouwekh.jpg';
-import Thieboudienne from './img/thieboudienne';
+import Thiebouwekh from './img/thiebwekh.jpg';
+import Thieboudienne from './img/tieboudienne.jpg';
 import Yassa from './img/yassa.jpg';
 
 const foodpage = (() => {
@@ -9,7 +9,6 @@ const foodpage = (() => {
   food.classList.add('container-fluid');
   food.setAttribute('id', 'menu');
   food.setAttribute('data-tab-content', '');
-//   console.log('hello');
 
 food.innerHTML = `
 <div class='row mt-3 main-food'>
@@ -53,5 +52,13 @@ food.innerHTML = `
   </div>
 </div>`;
 contentContainer.appendChild(food);
+const img1 = new Image();
+  img1.src = Yassa;
+  img1.classList.add('image-food');
+  const img11 = document.getElementById('img1');
+  img11.appendChild(img1);
 
 })();
+
+
+export default foodpage;
