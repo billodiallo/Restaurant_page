@@ -7,13 +7,6 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
-  watchOptions: {
-    poll: 1000, // Check for changes every second
-  },
-
-  devServer: {
-    contentBase: './dist',
-  },
   module: {
     rules: [
       {

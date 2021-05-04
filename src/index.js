@@ -8,12 +8,23 @@ function fordbd() {
   const i = 0;
   if (i < 0) {
     headerPage();
-    foodpage();
     renderHome();
+    foodpage();
     contactPage();
   }
 }
+
 fordbd();
+
+const tabs = document.querySelectorAll('[data-tab-target]');
+const tabContents = document.querySelectorAll('[data-tab-content]');
+const burger = document.querySelector('.hamburger');
+
+// Hamburger menu
+burger.addEventListener('click', () => {
+  document.querySelector('ul').classList.toggle('active');
+  burger.classList.toggle('toggle');
+});
 
 // Navigation tabs
 tabs.forEach((tab) => tab.addEventListener('click', () => {

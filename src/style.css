@@ -1,16 +1,64 @@
 body {
-    background-image: url(./img/joe.jpg);
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  background-image: url(./img/kabab.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  .red {
-    color: greenyellow;
-  }
+li {
+  font-family: var(--poppins);
+  list-style: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
 
-  .image-food {
-    width: 210px;
-    height: 210px;
-    border-radius: 100px;
-  }
+li:hover {
+  color: var(--pink);
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+  display: block;
+}
+
+.tab-content h1 {
+  font-family: var(--fredoka);
+  font-size: calc(3rem + 2vw);
+  text-align: center;
+}
+
+.main-row {
+  background-color: rgba(250, 193, 188, 0.7);
+  width: 75%;
+  height: 100%;
+}
+
+.main-food {
+  background-color: rgba(250, 193, 188, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.contact-row {
+  background-color: rgba(250, 193, 188, 0.7);
+  background-size: 70%;
+  height: 100%;
+}
+
+.red {
+  color: red;
+}
+
+.image-food {
+  width: 210px;
+  height: 210px;
+  border-radius: 100px;
+}
+
+.text-danger {
+  color: red;
+}
