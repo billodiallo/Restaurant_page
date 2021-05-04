@@ -1,7 +1,7 @@
 import Thieboudienne from './img/tieboudienne.jpg';
 import Yassa from './img/yassa.jpg';
 import Sarupe from './img/sarupe.jpeg';
-import Yaprax from './img/yaprax.png';
+import Thiakiri from './img/thiakiri.jpg';
 
 const foodpage = (() => {
   const contentContainer = document.querySelector('#content');
@@ -27,7 +27,7 @@ const foodpage = (() => {
         
       </div>
       <div class='col-6 mx-2'>
-        <h3 class='text-center'>KUBA</h3>
+        <h3 class='text-center'>Yassa </h3>
         <p>Yassa is a spicy dish prepared with onions and either marinated poultry or marinated fish ,Yassa is a spicy dish prepared with onions and either marinated poultry or marinated fish. Originally from Senegal, yassa has become popular throughout West Africa. Chicken yassa, prepared with onions, lemon or mustard, i</p>
       </div>
     </div>
@@ -37,8 +37,8 @@ const foodpage = (() => {
         
       </div>
       <div class='col-6 mx-2'>
-        <h3 class='text-center'>Yaprakh</h3>
-        <p>Yaprax(Dolma-as it is called in many countries) is a favorite Middle Eastern dish. It is made up of grape leaves,pepper,zucchini,eggplant,onions and tomatoes filled with spiced up rice. Well, this kind of one of the many types of Yaprax/Dolma.</p>
+        <h3 class='text-center'>Thiakiri</h3>
+        <p>Thiakry is known by different names across the West African region; Thiakiri, Degue, Chiakiri, Chakri etc. It looks like rice pudding and is traditionally made with millet, evaporated milk, sweetened condensed milk, yogurt, sugar and spices.</p>
       </div>
     </div>
 
@@ -67,7 +67,7 @@ const foodpage = (() => {
   img22.appendChild(img2);
 
   const img3 = new Image();
-  img3.src = Yaprax;
+  img3.src = Thiakiri;
   img3.classList.add('image-food');
   const img33 = document.getElementById('img3');
   img33.appendChild(img3);
