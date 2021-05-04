@@ -4,8 +4,6 @@ import renderHome from './home';
 import foodpage from './food';
 import contactPage from './contact';
 
-// console.log('hello word');
-
 function fordbd() {
   const i = 0;
   if (i < 0) {
