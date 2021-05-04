@@ -4,16 +4,15 @@ import renderHome from './home';
 import foodpage from './food';
 import contactPage from './contact';
 
-function fordbd() {
-  const i = 0;
+const fordbd = () => {
+  let i;
   if (i < 0) {
     headerPage();
     renderHome();
     foodpage();
     contactPage();
   }
-}
-
+};
 fordbd();
 
 const tabs = document.querySelectorAll('[data-tab-target]');
