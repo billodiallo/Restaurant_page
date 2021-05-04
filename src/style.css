@@ -1,5 +1,5 @@
 body {
-  background-image: url(./img/kabab.jpg);
+  background-image: url(./img/joe.jpg);
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +50,7 @@ li:hover {
 }
 
 .red {
-  color: red;
+  color:greenyellow;
 }
 
 .image-food {
