@@ -1,6 +1,5 @@
 import Thieboudienne from './img/tieboudienne.jpg';
 import Yassa from './img/yassa.jpg';
-import Sarupe from './img/sarupe.jpeg';
 import Thiakiri from './img/thiakiri.jpg';
 import Maffe from './img/maffe.jpg';
 
