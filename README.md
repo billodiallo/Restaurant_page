@@ -8,6 +8,9 @@ A Restaurant page built with JavaScript that contains the home page, menu page, 
 
 
 ## Screenshots of the app.
+![1](https://user-images.githubusercontent.com/11162987/116961448-07ca8f80-acac-11eb-9053-45dfee32b6f8.JPG)
+![2](https://user-images.githubusercontent.com/11162987/116961453-08fbbc80-acac-11eb-87b5-a17d8199aaa8.JPG)
+![3](https://user-images.githubusercontent.com/11162987/116961454-09945300-acac-11eb-80d5-1bb8af2c73db.JPG)
 
 
 
