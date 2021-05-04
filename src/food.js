@@ -2,6 +2,7 @@ import Thieboudienne from './img/tieboudienne.jpg';
 import Yassa from './img/yassa.jpg';
 import Sarupe from './img/sarupe.jpeg';
 import Thiakiri from './img/thiakiri.jpg';
+import Maffe from './img/maffe.jpg';
 
 const foodpage = (() => {
   const contentContainer = document.querySelector('#content');
@@ -47,8 +48,8 @@ const foodpage = (() => {
         
       </div>
       <div class='col-6 mx-2'>
-        <h3 class='text-center'>Sarupe</h3>
-        <p>Pacha (Sarupe in Kurdish) is a traditional dish made out of sheep skin filled with spiced rice, especially popular in the wintertime. “It was around 2:30 in the morning when four people came to our restaurant to eat pacha.</p>
+        <h3 class='text-center'>Maffe</h3>
+        <p>Peanut stew or groundnut stew, also called as maafe, sauce d'arachide, tigadèguèna or domoda, is a stew that is a staple food in Western Africa.</p>
       </div>
     </div>
   </div>`;
@@ -73,7 +74,7 @@ const foodpage = (() => {
   img33.appendChild(img3);
 
   const img4 = new Image();
-  img4.src = Sarupe;
+  img4.src = Maffe;
   img4.classList.add('image-food');
   const img44 = document.getElementById('img4');
   img44.appendChild(img4);
