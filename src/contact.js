@@ -8,8 +8,8 @@ const contactPage = (() => {
   <h1 class='text-center text-light'>Contact Us</h1>
   <div class='col-10 col-md-6 mx-auto row d-flex flex-column contact-row'>
     <div class='col-6 mx-auto'>
-      <p class='my-4'>Phone: +964 770 8272458</p>
-      <a href="mailto:arikarim146@gmail.com" class='my-2 text-decoration-none link-dark'>Email: arikarim146@gmail.com</a>
+      <p class='my-4'>Phone: +221558882222</p>
+      <a href="mailto:chezjoe@gmail.com" class='my-2 text-decoration-none link-dark'>Email: chezjoe@gmail.com</a>
     </div>
 
     <div class="col-6 mx-auto my-5">
