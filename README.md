@@ -15,7 +15,7 @@ A Restaurant page built with JavaScript that contains the home page, menu page, 
 
 
 
-[Live Demo Link]()
+[Live Demo Link](https://billodiallo.github.io/Restaurant_page/)
 
 ## Built With
 
